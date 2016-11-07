@@ -1,0 +1,6 @@
+module cos_fn (y,x);
+  output [0:7]y;
+  input [0:7]x;
+  
+assign y = ((8'd1)-((x))+((x**3))/8'd6);
+endmodule
